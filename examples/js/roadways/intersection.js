@@ -32,54 +32,478 @@ JSVTS.roadways = JSVTS.roadways || [];
 JSVTS.roadways.push({
     "map":{
         "segments":[
+            // Gardiner
             { /** inner-bottom **/
                 "start":{
-                    "x":33, // x axis is left/right
-                    "y":0, // y axis is vertically up/down
-                    "z":97 // z axis is horizontally up/down
+                    "x":200, // x axis is left/right
+                    "y":50, // y axis is vertically up/down
+                    "z":200 // z axis is horizontally up/down
+                },
+
+                "end":{
+                    "x":300, // 194
+                    "y":50,
+                    "z":200
+                },
+                // "tfc": {
+                //     "type":"stoplight",
+                //     "greenduration":1,
+                //     "redduration":5,
+                //     "yellowduration":0,
+                //     "startstate":0
+                // },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 1",
+                "isinlet":true,
+                "ismergelane": false,
+                "generator": {
+                    "delay":10
+                },
+            },
+            { /** inner-bottom **/
+                "start":{
+                    "x":295, // 194
+                    "y":50,
+                    "z":200
                 },
                 "end":{
-                    "x":177, // 194
-                    "y":0,
-                    "z":97
+                    "x":300, // 194
+                    "y":50,
+                    "z":190
                 },
-                "speedlimit":60,
-                "roadname":"Jason Ave. N.",
+                "speedlimit":40,
+                "roadname":"Gardiner Expressway 2",
+                "isinlet":true,
+                "ismergelane": true,
+            },
+
+            { /** inner-bottom **/
+                "start":{
+                    "x":305, // 194
+                    "y":50,
+                    "z":190
+                },
+                "end":{
+                    "x":310, // 194
+                    "y":50,
+                    "z":200
+                },
+                "speedlimit":40,
+                "roadname":"Gardiner Expressway 2.5",
+                "isinlet":true,
+                "ismergelane": true,
+            },
+
+            {
+                "start":{
+                    "x":300,
+                    "y":50,
+                    "z":200
+                },
+                "end":{
+                    "x":420,
+                    "y":50,
+                    "z":200
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 3",
                 "isinlet":false,
                 "ismergelane": false
             },
             {
                 "start":{
-                    "x":177,
-                    "y":0,
-                    "z":97
+                    "x":420,
+                    "y":50,
+                    "z":200
                 },
                 "end":{
-                    "x":197,
-                    "y":0,
-                    "z":77
+                    "x":480,
+                    "y":50,
+                    "z":200
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 4",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":480,
+                    "y":50,
+                    "z":200
+                },
+                "end":{
+                    "x":510,
+                    "y":50,
+                    "z":190
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 5",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":510,
+                    "y":50,
+                    "z":190
+                },
+                "end":{
+                    "x":550,
+                    "y":50,
+                    "z":170
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 6",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":200,
+                    "y":50,
+                    "z":190 
+                },
+                "end":{
+                    "x":500,
+                    "y":50,
+                    "z":190
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 7",
+                "isinlet":true,
+                "ismergelane": true,
+                "generator": {
+                    "delay":10
+                },
+            },
+            {
+                "start":{
+                    "x":500,
+                    "y":50,
+                    "z":190
+                },
+                "end":{
+                    "x":550,
+                    "y":50,
+                    "z":165
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway 8.5",
+                "isinlet":false,
+                "ismergelane": true,
+            },
+            {
+                "start":{
+                    "x":550,
+                    "y":50,
+                    "z":165
+                },
+                "end":{
+                    "x":700,
+                    "y":50,
+                    "z":165
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway EAST 1",
+                "isinlet":false,
+                "ismergelane": true,
+            },
+            {
+                "start":{
+                    "x":550,
+                    "y":50,
+                    "z":170
+                },
+                "end":{
+                    "x":70,
+                    "y":50,
+                    "z":170
+                },
+                "speedlimit":100,
+                "roadname":"Gardiner Expressway EAST 2",
+                "isinlet":false,
+                "ismergelane": false
+            },
+
+            // Off Ramp 2
+            {
+                "start":{
+                    "x":510,
+                    "y":50,
+                    "z":190
+                },
+                "end":{
+                    "x":580,
+                    "y":45,
+                    "z":180
                 },
                 "speedlimit":60,
-                "roadname":"Jason Ave. N.",
+                "roadname":"Off Ramp. 2",
+                "isinlet":true,
+                "ismergelane": true
+            },
+            {
+                "start":{
+                    "x":580,
+                    "y":45,
+                    "z":180
+                },
+                "end":{
+                    "x":590,
+                    "y":43,
+                    "z":185
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":590,
+                    "y":43,
+                    "z":185
+                },
+                "end":{
+                    "x":595,
+                    "y":41,
+                    "z":189
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":595,
+                    "y":41,
+                    "z":189
+                },
+                "end":{
+                    "x":598,
+                    "y":38,
+                    "z":195
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":598,
+                    "y":38,
+                    "z":195
+                },
+                "end":{
+                    "x":598,
+                    "y":35,
+                    "z":200
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":598,
+                    "y":35,
+                    "z":200
+                },
+                "end":{
+                    "x":595,
+                    "y":32,
+                    "z":205
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":595,
+                    "y":32,
+                    "z":205
+                },
+                "end":{
+                    "x":590,
+                    "y":28,
+                    "z":206
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":590,
+                    "y":28,
+                    "z":206
+                },
+                "end":{
+                    "x":580,
+                    "y":23,
+                    "z":205
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":580,
+                    "y":23,
+                    "z":205
+                },
+                "end":{
+                    "x":570,
+                    "y":15,
+                    "z":180
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":570,
+                    "y":15,
+                    "z":180
+                },
+                "end":{
+                    "x":565,
+                    "y":0,
+                    "z":165
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false
+            },
+            {
+                "start":{
+                    "x":565,
+                    "y":0,
+                    "z":165
+                },
+                "end":{
+                    "x":565,
+                    "y":0,
+                    "z":100
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont.",
+                "isinlet":false,
+                "ismergelane": false,
+                "tfc": {
+                    "type":"stoplight",
+                    "greenduration":8,
+                    "redduration":5,
+                    "yellowduration":1,
+                    "startstate":0
+                },
+            },
+
+
+            // Off Ramp
+            { /** inner-right **/
+                "start":{
+                    "x":300,
+                    "y":50,
+                    "z":200
+                },
+                "end":{
+                    "x":310,
+                    "y":45,
+                    "z":205 // 6
+                },
+                "speedlimit":40,
+                "roadname":"Off ramp",
+                "isinlet":true,
+                "ismergelane": true
+            },
+            { /** inner-right **/
+                "start":{
+                    "x":310,
+                    "y":45,
+                    "z":205 // 6
+                },
+                "end":{
+                    "x":380,
+                    "y":15,
+                    "z":205 // 6
+                },
+                "speedlimit":40,
+                "roadname":"Off ramp cont.",
                 "isinlet":false,
                 "ismergelane": false
             },
             { /** inner-right **/
                 "start":{
-                    "x":197,
-                    "y":0,
-                    "z":77 // 94
+                    "x":380,
+                    "y":15,
+                    "z":205 // 6
                 },
                 "end":{
-                    "x":197,
+                    "x":420,
                     "y":0,
-                    "z":23 // 6
+                    "z":205 // 6
                 },
-                "speedlimit":60,
-                "roadname":"Jason Ave. N.",
+                "tfc": {
+                    "type":"stoplight",
+                    "greenduration":8,
+                    "redduration":5,
+                    "yellowduration":1,
+                    "startstate":0
+                },
+                "speedlimit":40,
+                "roadname":"Off ramp cont.",
                 "isinlet":false,
                 "ismergelane": false
-            }
+            },
+
+            // Spadina
+            { /** inner-right **/
+                "start":{
+                    "x":420,
+                    "y":0,
+                    "z":205 // 6
+                },
+                "end":{
+                    "x":420,
+                    "y":0,
+                    "z":120 // 6
+                },
+                "speedlimit":40,
+                "roadname":"Spadina.",
+                "isinlet":true,
+                "ismergelane": true
+            },
+
+            // YORK
+            {
+                "start":{
+                    "x":565,
+                    "y":0,
+                    "z":100
+                },
+                "end":{
+                    "x":565,
+                    "y":0,
+                    "z":60
+                },
+                "speedlimit":40,
+                "roadname":"York",
+                "isinlet":true,
+                "ismergelane": true,
+            },
         ]
     }
 });

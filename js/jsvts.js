@@ -30,15 +30,17 @@
 "strict mode";
 var JSVTS = {
     ID_COUNT: 0,
-    CRASH_CLEANUP_MAX_DELAY: 300000, // 5 min
-    CRASH_CLEANUP_MIN_DELAY: 60000, // 1 min
+    // CRASH_CLEANUP_MAX_DELAY: 300000, // 5 min
+    // CRASH_CLEANUP_MIN_DELAY: 60000, // 1 min
+    CRASH_CLEANUP_MAX_DELAY: 6000, // 5 min
+    CRASH_CLEANUP_MIN_DELAY: 6000, // 1 min
     startTime: 0,
     elapsed: 0,
     realtime: false,
     keepMoving: false,
     totalElapsedTime: 0,
     roadways: [],
-    defaultRoadway: 0,
+    defaultRoadway: 1,
     timeStep: 10, // lower values are more accurate, but slower
 
 	init: function () {
