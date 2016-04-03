@@ -32,162 +32,54 @@ JSVTS.roadways = JSVTS.roadways || [];
 JSVTS.roadways.push({
     "map":{
         "segments":[
-            {
+            { /** inner-bottom **/
                 "start":{
-                    "x":200,
-                    "y":0,
-                    "z":25
+                    "x":33, // x axis is left/right
+                    "y":0, // y axis is vertically up/down
+                    "z":97 // z axis is horizontally up/down
                 },
                 "end":{
-                    "x":200,
+                    "x":177, // 194
                     "y":0,
-                    "z":197
+                    "z":97
                 },
-                "speedlimit":25,
-                "roadname":"Road 1 Southbound",
-                "tfc":{
-                    "type":"stoplight",
-                    "startstate":0
-                },
-                "generator": {
-                    "delay":5
-                },
-                "isinlet":true,
-                "ismergelane":false
-            },
-            {
-                "start":{
-                    "x":200,
-                    "y":0,
-                    "z":197
-                },
-                "end":{
-                    "x":200,
-                    "y":0,
-                    "z":300
-                },
-                "speedlimit":25,
-                "roadname":"Road 1 Southbound",
+                "speedlimit":60,
+                "roadname":"Jason Ave. N.",
                 "isinlet":false,
-                "ismergelane":false
+                "ismergelane": false
             },
             {
                 "start":{
-                    "x":203,
+                    "x":177,
                     "y":0,
-                    "z":300
-                },
-                "end":{
-                    "x":203,
-                    "y":0,
-                    "z":206
-                },
-                "speedlimit":25,
-                "roadname":"Road 1 Northbound",
-                "tfc":{
-                    "type":"stoplight",
-                    "startstate":0
-                },
-                "generator": {
-                    "delay":5
-                },
-                "isinlet":true,
-                "ismergelane":false
-            },
-            {
-                "start":{
-                    "x":203,
-                    "y":0,
-                    "z":206
-                },
-                "end":{
-                    "x":203,
-                    "y":0,
-                    "z":25
-                },
-                "speedlimit":25,
-                "roadname":"Road 1 Northbound",
-                "isinlet":false,
-                "ismergelane":false
-            },
-            {
-                "start":{
-                    "x":25,
-                    "y":0,
-                    "z":203
+                    "z":97
                 },
                 "end":{
                     "x":197,
                     "y":0,
-                    "z":203
+                    "z":77
                 },
-                "speedlimit":35,
-                "roadname":"Road 2 Eastbound",
-                "tfc":{
-                    "type":"stoplight",
-                    "startstate":2
-                },
-                "generator": {
-                    "delay":5
-                },
-                "isinlet":true,
-                "ismergelane":false
+                "speedlimit":60,
+                "roadname":"Jason Ave. N.",
+                "isinlet":false,
+                "ismergelane": false
             },
-            {
+            { /** inner-right **/
                 "start":{
                     "x":197,
                     "y":0,
-                    "z":203
+                    "z":77 // 94
                 },
                 "end":{
-                    "x":300,
+                    "x":197,
                     "y":0,
-                    "z":203
+                    "z":23 // 6
                 },
-                "speedlimit":35,
-                "roadname":"Road 2 Eastbound",
+                "speedlimit":60,
+                "roadname":"Jason Ave. N.",
                 "isinlet":false,
-                "ismergelane":false
-            },
-            {
-                "start":{
-                    "x":300,
-                    "y":0,
-                    "z":200
-                },
-                "end":{
-                    "x":206,
-                    "y":0,
-                    "z":200
-                },
-                "speedlimit":35,
-                "roadname":"Road 2 Westbound",
-                "tfc":{
-                    "type":"stoplight",
-                    "startstate":2
-                },
-                "generator": {
-                    "delay":5
-                },
-                "isinlet":true,
-                "ismergelane":false
-            },
-            {
-                "start":{
-                    "x":206,
-                    "y":0,
-                    "z":200
-                },
-                "end":{
-                    "x":25,
-                    "y":0,
-                    "z":200
-                },
-                "speedlimit":35,
-                "roadname":"Road 2 Westbound",
-                "isinlet":false,
-                "ismergelane":false
-            },
+                "ismergelane": false
+            }
         ]
     }
 });
