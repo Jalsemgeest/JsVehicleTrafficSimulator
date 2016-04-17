@@ -256,8 +256,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -272,8 +272,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -288,8 +288,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -304,8 +304,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -320,8 +320,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -336,8 +336,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -352,8 +352,8 @@ JSVTS.roadways.push({
                 },
                 "speedlimit":40,
                 "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
@@ -362,46 +362,62 @@ JSVTS.roadways.push({
                     "z":205
                 },
                 "end":{
-                    "x":570,
-                    "y":15,
-                    "z":180
+                    "x":575,
+                    "y":18,
+                    "z":200
                 },
                 "speedlimit":40,
-                "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "roadname":"Off Ramp cont. New",
+                "isinlet":true,
+                "ismergelane": true
+            },
+            {
+                "start":{
+                    "x":575,
+                    "y":18,
+                    "z":200
+                },
+                "end":{
+                    "x":570,
+                    "y":13,
+                    "z":195
+                },
+                "speedlimit":40,
+                "roadname":"Off Ramp cont. NEW 2",
+                "isinlet":true,
+                "ismergelane": true
             },
             {
                 "start":{
                     "x":570,
-                    "y":15,
-                    "z":180
+                    "y":13,
+                    "z":195
                 },
                 "end":{
                     "x":565,
-                    "y":0,
-                    "z":165
+                    "y":8,
+                    "z":185
                 },
                 "speedlimit":40,
-                "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false
+                "roadname":"Off Ramp cont. NEW 3",
+                "isinlet":true,
+                "ismergelane": true,
             },
             {
                 "start":{
                     "x":565,
+                    "y":8,
+                    "z":185
+                },
+                "end":{
+                    "x":560,
                     "y":0,
                     "z":165
                 },
-                "end":{
-                    "x":565,
-                    "y":0,
-                    "z":100
-                },
                 "speedlimit":40,
-                "roadname":"Off Ramp cont.",
-                "isinlet":false,
-                "ismergelane": false,
+                "roadname":"Off Ramp cont. NEW 4",
+                "isinlet":true,
+                "ismergelane": true,
                 "tfc": {
                     "type":"stoplight",
                     "greenduration":8,
@@ -490,9 +506,9 @@ JSVTS.roadways.push({
             // YORK
             {
                 "start":{
-                    "x":565,
+                    "x":560,
                     "y":0,
-                    "z":100
+                    "z":165
                 },
                 "end":{
                     "x":565,

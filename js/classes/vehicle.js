@@ -35,7 +35,7 @@ JSVTS.VEH_OPTIONS = function () {
         height: 2,
         reactionTime: 5.0, // seconds to react
         acceleration: 3.5, // meters per second
-        deceleration: 15, // meters per second
+        deceleration: 3, // meters per second
         changeLaneDelay: 5 // don't change lanes for 5 seconds after a change
     };
     return self;
